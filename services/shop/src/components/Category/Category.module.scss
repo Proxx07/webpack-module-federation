@@ -1,0 +1,17 @@
+.category {
+  --color: #fff;
+  --bg: #0b0e1a;
+
+  &:hover {
+    --color: #0b0e1a;
+    --bg: #fff;
+  }
+
+  color: var(--color);
+  border: 1px solid var(--color);
+  background: var(--bg);
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: ease all .4s;
+}
